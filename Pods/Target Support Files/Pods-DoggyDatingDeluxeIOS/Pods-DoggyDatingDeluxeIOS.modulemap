@@ -1,0 +1,6 @@
+framework module Pods_DoggyDatingDeluxeIOS {
+  umbrella header "Pods-DoggyDatingDeluxeIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
