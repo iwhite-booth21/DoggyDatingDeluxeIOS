@@ -13,9 +13,11 @@
 		18E26CE327E0FFF200771BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E26CE127E0FFF200771BEA /* Main.storyboard */; };
 		18E26CE527E0FFF400771BEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18E26CE427E0FFF400771BEA /* Assets.xcassets */; };
 		18E26CE827E0FFF400771BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E26CE627E0FFF400771BEA /* LaunchScreen.storyboard */; };
+		D87A1BD722102D7C915BEFB2 /* Pods_DoggyDatingDeluxeIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AFC16B98073F3135FA3163 /* Pods_DoggyDatingDeluxeIOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1405CBE49C4A2AD1F1D8A36E /* Pods-DoggyDatingDeluxeIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoggyDatingDeluxeIOS.release.xcconfig"; path = "Target Support Files/Pods-DoggyDatingDeluxeIOS/Pods-DoggyDatingDeluxeIOS.release.xcconfig"; sourceTree = "<group>"; };
 		18E26CD827E0FFF200771BEA /* DoggyDatingDeluxeIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoggyDatingDeluxeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E26CDB27E0FFF200771BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E26CDD27E0FFF200771BEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		18E26CE427E0FFF400771BEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18E26CE727E0FFF400771BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18E26CE927E0FFF400771BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AFC16B98073F3135FA3163 /* Pods_DoggyDatingDeluxeIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoggyDatingDeluxeIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6539C772C6DCD7BBF91431DB /* Pods-DoggyDatingDeluxeIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoggyDatingDeluxeIOS.debug.xcconfig"; path = "Target Support Files/Pods-DoggyDatingDeluxeIOS/Pods-DoggyDatingDeluxeIOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87A1BD722102D7C915BEFB2 /* Pods_DoggyDatingDeluxeIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				18E26CDA27E0FFF200771BEA /* DoggyDatingDeluxeIOS */,
 				18E26CD927E0FFF200771BEA /* Products */,
+				A7E09ADA177D7CAA01684F84 /* Pods */,
+				66DA1E61E736BF087E13946C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,24 @@
 			path = DoggyDatingDeluxeIOS;
 			sourceTree = "<group>";
 		};
+		66DA1E61E736BF087E13946C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28AFC16B98073F3135FA3163 /* Pods_DoggyDatingDeluxeIOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A7E09ADA177D7CAA01684F84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6539C772C6DCD7BBF91431DB /* Pods-DoggyDatingDeluxeIOS.debug.xcconfig */,
+				1405CBE49C4A2AD1F1D8A36E /* Pods-DoggyDatingDeluxeIOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18E26CEC27E0FFF400771BEA /* Build configuration list for PBXNativeTarget "DoggyDatingDeluxeIOS" */;
 			buildPhases = (
+				FAE6402EE50FD83059BA2157 /* [CP] Check Pods Manifest.lock */,
 				18E26CD427E0FFF200771BEA /* Sources */,
 				18E26CD527E0FFF200771BEA /* Frameworks */,
 				18E26CD627E0FFF200771BEA /* Resources */,
+				17C35D77FD22A9814E84972A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17C35D77FD22A9814E84972A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoggyDatingDeluxeIOS/Pods-DoggyDatingDeluxeIOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoggyDatingDeluxeIOS/Pods-DoggyDatingDeluxeIOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoggyDatingDeluxeIOS/Pods-DoggyDatingDeluxeIOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAE6402EE50FD83059BA2157 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoggyDatingDeluxeIOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		18E26CD427E0FFF200771BEA /* Sources */ = {
@@ -284,6 +353,7 @@
 		};
 		18E26CED27E0FFF400771BEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6539C772C6DCD7BBF91431DB /* Pods-DoggyDatingDeluxeIOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +382,7 @@
 		};
 		18E26CEE27E0FFF400771BEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1405CBE49C4A2AD1F1D8A36E /* Pods-DoggyDatingDeluxeIOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
