@@ -14,7 +14,7 @@
 		18E26CE827E0FFF400771BEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E26CE627E0FFF400771BEA /* LaunchScreen.storyboard */; };
 		18F4129327E1B466001B8A62 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4129227E1B466001B8A62 /* LoginViewController.swift */; };
 		18F4129527E1B479001B8A62 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4129427E1B479001B8A62 /* FeedViewController.swift */; };
-		18F4129927E1C94B001B8A62 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4129827E1C94B001B8A62 /* SignUpViewController.swift */; };
+		18F4129D27E1CCD6001B8A62 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4129C27E1CCD6001B8A62 /* SignUpViewController.swift */; };
 		D87A1BD722102D7C915BEFB2 /* Pods_DoggyDatingDeluxeIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AFC16B98073F3135FA3163 /* Pods_DoggyDatingDeluxeIOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +29,7 @@
 		18E26CE927E0FFF400771BEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F4129227E1B466001B8A62 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		18F4129427E1B479001B8A62 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
-		18F4129827E1C94B001B8A62 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../../../.Trash/SignUpViewController.swift; sourceTree = "<group>"; };
+		18F4129C27E1CCD6001B8A62 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		28AFC16B98073F3135FA3163 /* Pods_DoggyDatingDeluxeIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoggyDatingDeluxeIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6539C772C6DCD7BBF91431DB /* Pods-DoggyDatingDeluxeIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoggyDatingDeluxeIOS.debug.xcconfig"; path = "Target Support Files/Pods-DoggyDatingDeluxeIOS/Pods-DoggyDatingDeluxeIOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,10 +72,10 @@
 				18E26CE127E0FFF200771BEA /* Main.storyboard */,
 				18F4129227E1B466001B8A62 /* LoginViewController.swift */,
 				18F4129427E1B479001B8A62 /* FeedViewController.swift */,
-				18F4129827E1C94B001B8A62 /* SignUpViewController.swift */,
 				18E26CE427E0FFF400771BEA /* Assets.xcassets */,
 				18E26CE627E0FFF400771BEA /* LaunchScreen.storyboard */,
 				18E26CE927E0FFF400771BEA /* Info.plist */,
+				18F4129C27E1CCD6001B8A62 /* SignUpViewController.swift */,
 			);
 			path = DoggyDatingDeluxeIOS;
 			sourceTree = "<group>";
@@ -216,7 +216,7 @@
 				18E26CDC27E0FFF200771BEA /* AppDelegate.swift in Sources */,
 				18F4129527E1B479001B8A62 /* FeedViewController.swift in Sources */,
 				18E26CDE27E0FFF200771BEA /* SceneDelegate.swift in Sources */,
-				18F4129927E1C94B001B8A62 /* SignUpViewController.swift in Sources */,
+				18F4129D27E1CCD6001B8A62 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

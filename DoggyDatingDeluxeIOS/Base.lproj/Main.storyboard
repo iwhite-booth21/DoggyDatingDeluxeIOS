@@ -95,8 +95,6 @@
         <!--Sign Up View Controller-->
         <scene sceneID="mMr-o2-0Jr">
             <objects>
-                <exit id="FFm-Nh-KvM" userLabel="Exit" sceneMemberID="exit"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WlK-PE-Oh1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController wantsFullScreenLayout="YES" id="Q7L-Fg-kmN" customClass="SignUpViewController" customModule="DoggyDatingDeluxeIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O4F-Bl-kUC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -158,6 +156,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign Up"/>
                                 <connections>
+                                    <action selector="onFinalSignUpBtn:" destination="Q7L-Fg-kmN" eventType="touchUpInside" id="alQ-Tp-wS5"/>
                                     <action selector="onSignUpBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0CT-Z0-UyV"/>
                                     <action selector="onSignUpCreateBtn:" destination="Q7L-Fg-kmN" eventType="touchUpInside" id="DIr-VC-zQV"/>
                                     <segue destination="EcL-iD-y2S" kind="presentation" identifier="userSignUpSegue" id="wYs-rL-jx0"/>
@@ -168,11 +167,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="emailField" destination="Afj-Sf-EG1" id="Y32-HK-wrr"/>
-                        <outlet property="passwordField" destination="q9j-HG-xJf" id="dti-OO-xSI"/>
-                        <outlet property="usernameField" destination="mb3-g3-LFO" id="FXK-Up-cxi"/>
+                        <outlet property="emailField" destination="Afj-Sf-EG1" id="0P1-Bs-gDK"/>
+                        <outlet property="passwordField" destination="q9j-HG-xJf" id="Nak-Ji-I2M"/>
+                        <outlet property="usernameField" destination="mb3-g3-LFO" id="dAr-sE-sEj"/>
                     </connections>
                 </viewController>
+                <exit id="FFm-Nh-KvM" userLabel="Exit" sceneMemberID="exit"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WlK-PE-Oh1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="128.98550724637681" y="819.64285714285711"/>
         </scene>
