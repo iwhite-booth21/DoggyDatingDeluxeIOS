@@ -53,7 +53,7 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Sign Up"/>
                                 <connections>
                                     <action selector="onSignUpBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G67-2R-vfe"/>
-                                    <segue destination="Q7L-Fg-kmN" kind="presentation" identifier="signUpSegue" id="ABb-hN-bbf"/>
+                                    <segue destination="Q7L-Fg-kmN" kind="show" identifier="signUpSegue" id="Yl5-Hm-kkn"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sot-hm-7k0">
@@ -95,6 +95,8 @@
         <!--Sign Up View Controller-->
         <scene sceneID="mMr-o2-0Jr">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WlK-PE-Oh1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="FFm-Nh-KvM" userLabel="Exit" sceneMemberID="exit"/>
                 <viewController wantsFullScreenLayout="YES" id="Q7L-Fg-kmN" customClass="SignUpViewController" customModule="DoggyDatingDeluxeIOS" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O4F-Bl-kUC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -121,7 +123,6 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="usernameField:" destination="FFm-Nh-KvM" eventType="editingDidEnd" id="GiH-Tw-VxN"/>
-                                    <action selector="usernameField:" destination="Q7L-Fg-kmN" eventType="editingDidEnd" id="Pvf-FG-8I5"/>
                                 </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Afj-Sf-EG1">
@@ -129,9 +130,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="emailField:" destination="Q7L-Fg-kmN" eventType="editingDidEnd" id="QhW-2F-JUG"/>
-                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Email:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hzs-sY-TIt">
                                 <rect key="frame" x="68" y="436" width="46" height="21"/>
@@ -147,33 +145,44 @@
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <action selector="passwordField:" destination="FFm-Nh-KvM" eventType="editingDidEnd" id="PUu-wd-OkD"/>
-                                    <action selector="passwordField:" destination="Q7L-Fg-kmN" eventType="editingDidEnd" id="mg3-U3-4xV"/>
                                 </connections>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aLp-EI-fg8">
-                                <rect key="frame" x="170" y="557" width="75" height="31"/>
+                                <rect key="frame" x="170" y="632" width="75" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Sign Up"/>
                                 <connections>
                                     <action selector="onFinalSignUpBtn:" destination="Q7L-Fg-kmN" eventType="touchUpInside" id="alQ-Tp-wS5"/>
                                     <action selector="onSignUpBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0CT-Z0-UyV"/>
-                                    <action selector="onSignUpCreateBtn:" destination="Q7L-Fg-kmN" eventType="touchUpInside" id="DIr-VC-zQV"/>
                                     <segue destination="EcL-iD-y2S" kind="presentation" identifier="userSignUpSegue" id="wYs-rL-jx0"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rs4-3T-LRN">
+                                <rect key="frame" x="68" y="564" width="278" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pet's Name:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ngx-Xl-K62">
+                                <rect key="frame" x="68" y="521" width="92" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Jko-uU-3RY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="YiU-af-bgh"/>
                     <connections>
                         <outlet property="emailField" destination="Afj-Sf-EG1" id="0P1-Bs-gDK"/>
                         <outlet property="passwordField" destination="q9j-HG-xJf" id="Nak-Ji-I2M"/>
+                        <outlet property="petField" destination="Rs4-3T-LRN" id="mPF-oR-qNh"/>
                         <outlet property="usernameField" destination="mb3-g3-LFO" id="dAr-sE-sEj"/>
                     </connections>
                 </viewController>
-                <exit id="FFm-Nh-KvM" userLabel="Exit" sceneMemberID="exit"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="WlK-PE-Oh1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="128.98550724637681" y="819.64285714285711"/>
         </scene>

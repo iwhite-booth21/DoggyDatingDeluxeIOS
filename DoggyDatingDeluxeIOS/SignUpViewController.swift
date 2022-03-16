@@ -17,6 +17,7 @@ class SignUpViewController: UIViewController {
     
     @IBOutlet weak var emailField: UITextField!
     
+    @IBOutlet weak var petField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +30,7 @@ class SignUpViewController: UIViewController {
         user.username = usernameField.text
         user.password = passwordField.text
         user.email = emailField.text
+        user["pet"] = petField.text
         
         user.signUpInBackground{(success, error) in
             if success{
