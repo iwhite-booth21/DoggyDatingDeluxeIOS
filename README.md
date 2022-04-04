@@ -68,7 +68,7 @@ Tracks where a dog is, and pairs them with others based on that location. Could 
 
 
 ### Interactive Prototype
-<img src="DoggyDatingSPRINTONE.gif" width=800><br>
+<img src="DoggDatingSPRINTONE.gif" width=800><br>
 
 
 
