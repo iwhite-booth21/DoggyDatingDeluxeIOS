@@ -66,7 +66,9 @@ Tracks where a dog is, and pairs them with others based on that location. Could 
 ## Wireframes
 <img src="https://i.imgur.com/nHLSLVt.jpg" width=800><br>
 
+
 ### Interactive Prototype
+<img src="DoggyDatingSPRINTONE.gif" width=800><br>
 
 
 
