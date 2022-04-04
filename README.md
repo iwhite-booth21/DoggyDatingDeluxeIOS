@@ -21,9 +21,9 @@ Tracks where a dog is, and pairs them with others based on that location. Could 
 ## Product Spec
 ### 1. User Stories 
 
-* [] A User will be able to login to application.
-* [] User can select between multiple navigation items.
-* [] A new user may create a profile.
+* [X] A User will be able to login to application.
+* [X] User can select between multiple navigation items.
+* [X] A new user may create a profile.
 * [] A user may post an image.
 * [] A user may view a collection of posts.
 * [] A user may view a collection of their own posts
@@ -31,8 +31,8 @@ Tracks where a dog is, and pairs them with others based on that location. Could 
 
 
 ### Stretch Stories 
-* [] The Botton Navigation will have a custom design.
-* [] The Signup Functionality will be done via button on Login page
+* [] The SignIn page will have a custom design.
+* [X] The Signup Functionality will be done via button on Login page
 * [] A user will be able to create a blog.
 * [] A user will be able to post their location.
 * [] Users with close locations will be matched.
