@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		188194CF280558F500F8508C /* PostCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188194CE280558F500F8508C /* PostCellTableViewCell.swift */; };
+		1892306E27FF4A4200AED858 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892306D27FF4A4200AED858 /* CameraViewController.swift */; };
 		18E26CDC27E0FFF200771BEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E26CDB27E0FFF200771BEA /* AppDelegate.swift */; };
 		18E26CDE27E0FFF200771BEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E26CDD27E0FFF200771BEA /* SceneDelegate.swift */; };
 		18E26CE327E0FFF200771BEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18E26CE127E0FFF200771BEA /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		1405CBE49C4A2AD1F1D8A36E /* Pods-DoggyDatingDeluxeIOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoggyDatingDeluxeIOS.release.xcconfig"; path = "Target Support Files/Pods-DoggyDatingDeluxeIOS/Pods-DoggyDatingDeluxeIOS.release.xcconfig"; sourceTree = "<group>"; };
+		188194CE280558F500F8508C /* PostCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCellTableViewCell.swift; sourceTree = "<group>"; };
+		1892306D27FF4A4200AED858 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		18E26CD827E0FFF200771BEA /* DoggyDatingDeluxeIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoggyDatingDeluxeIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18E26CDB27E0FFF200771BEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18E26CDD27E0FFF200771BEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,12 +74,14 @@
 				18E26CDB27E0FFF200771BEA /* AppDelegate.swift */,
 				18E26CDD27E0FFF200771BEA /* SceneDelegate.swift */,
 				18E26CE127E0FFF200771BEA /* Main.storyboard */,
+				188194CE280558F500F8508C /* PostCellTableViewCell.swift */,
 				18F4129227E1B466001B8A62 /* LoginViewController.swift */,
 				18F4129427E1B479001B8A62 /* FeedViewController.swift */,
 				18E26CE427E0FFF400771BEA /* Assets.xcassets */,
 				18E26CE627E0FFF400771BEA /* LaunchScreen.storyboard */,
 				18E26CE927E0FFF400771BEA /* Info.plist */,
 				18F4129C27E1CCD6001B8A62 /* SignUpViewController.swift */,
+				1892306D27FF4A4200AED858 /* CameraViewController.swift */,
 			);
 			path = DoggyDatingDeluxeIOS;
 			sourceTree = "<group>";
@@ -217,6 +223,8 @@
 				18F4129527E1B479001B8A62 /* FeedViewController.swift in Sources */,
 				18E26CDE27E0FFF200771BEA /* SceneDelegate.swift in Sources */,
 				18F4129D27E1CCD6001B8A62 /* SignUpViewController.swift in Sources */,
+				188194CF280558F500F8508C /* PostCellTableViewCell.swift in Sources */,
+				1892306E27FF4A4200AED858 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
