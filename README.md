@@ -24,8 +24,8 @@ Tracks where a dog is, and pairs them with others based on that location. Could 
 * [X] A User will be able to login to application.
 * [X] User can select between multiple navigation items.
 * [X] A new user may create a profile.
-* [] A user may post an image.
-* [] A user may view a collection of posts.
+* [X] A user may post an image.
+* [X] A user may view a collection of posts.
 * [] A user may view a collection of their own posts
 
 
@@ -33,7 +33,7 @@ Tracks where a dog is, and pairs them with others based on that location. Could 
 ### Stretch Stories 
 * [] The SignIn page will have a custom design.
 * [X] The Signup Functionality will be done via button on Login page
-* [] A user will be able to create a blog.
+* [X] A user will be able to create a blog.
 * [] A user will be able to post their location.
 * [] Users with close locations will be matched.
 * [] Users will be able to delete their account.
@@ -70,6 +70,7 @@ Tracks where a dog is, and pairs them with others based on that location. Could 
 ### Interactive Prototype
 <img src="DoggDatingSPRINTONE.gif" width=800><br>
 <img src="DoggyDatingSPRINTONE_2.gif" width=800><br>
+<img src="DDIOSPT3.gif" width=800><br>
 
 
 ## Schema 
