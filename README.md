@@ -31,7 +31,9 @@ Tracks where a dog is, and pairs them with others based on that location. Could 
 
 
 ### Stretch Stories 
-* [] The SignIn page will have a custom design.
+* [X] The SignIn page will have a custom design.
+* [X] Redesign of Post creation page.
+* [X] The SignIn page will have a custom design.
 * [X] The Signup Functionality will be done via button on Login page
 * [X] A user will be able to create a blog.
 * [] A user will be able to post their location.
