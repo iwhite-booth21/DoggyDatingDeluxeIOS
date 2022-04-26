@@ -26,7 +26,7 @@ Tracks where a dog is, and pairs them with others based on that location. Could 
 * [X] A new user may create a profile.
 * [X] A user may post an image.
 * [X] A user may view a collection of posts.
-* [] A user may view a collection of their own posts
+
 
 
 
@@ -36,6 +36,8 @@ Tracks where a dog is, and pairs them with others based on that location. Could 
 * [X] The SignIn page will have a custom design.
 * [X] The Signup Functionality will be done via button on Login page
 * [X] A user will be able to create a blog.
+* [] A user may update their profile.
+* [] A user may delete their profile.
 * [] A user will be able to post their location.
 * [] Users with close locations will be matched.
 * [] Users will be able to delete their account.
