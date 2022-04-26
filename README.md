@@ -70,6 +70,7 @@ Tracks where a dog is, and pairs them with others based on that location. Could 
 
 
 ### Interactive Prototype
+<img src="DD_Update_Del.gif" width=800><br>
 <img src="DoggDatingSPRINTONE.gif" width=800><br>
 <img src="DoggyDatingSPRINTONE_2.gif" width=800><br>
 <img src="DDIOSPT3.gif" width=800><br>
