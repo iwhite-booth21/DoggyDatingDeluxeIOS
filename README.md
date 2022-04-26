@@ -102,7 +102,8 @@ Tracks where a dog is, and pairs them with others based on that location. Could 
    
  
                                          
-                                         
+### Final Build Sprint
+In this final segment of the sprint, the following screens were added to the program: The profile screen and the update profile screen. The profile screen has the ability to show a a users information and allow the to modify via the update profile screen. When the update screen is active, the user can alternatively delete their account whilst on the update screen. There are a few steps to be worked out in the future, however that is the final goal for this project.
                                          
 ### Networking
 #### Screen Requests
