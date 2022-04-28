@@ -24,6 +24,7 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func onLoginBtn(_ sender: Any) {
+        
         let username = usernameField.text!
         let password = passwordField.text!
         
@@ -31,7 +32,7 @@ class LoginViewController: UIViewController {
             if user != nil {
                 self.performSegue(withIdentifier: "loginSegue", sender: nil)
             }else{
-                print("Error: \(error?.localizedDescription)")
+                print("Error: \(String(describing: error?.localizedDescription))")
             }
             
         }

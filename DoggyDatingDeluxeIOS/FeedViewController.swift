@@ -11,6 +11,7 @@ import AlamofireImage
 
 class FeedViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+        
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return posts.count
     }
@@ -25,7 +26,7 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         let user = post["author"] as! PFUser
         
         cell.usernameLbl.text = user.username
-        cell.captionLbl.text = post["caption"] as! String
+        cell.captionLbl.text = post["caption"] as? String
         
         let imageFile = post["image"] as! PFFileObject
         let urlString = imageFile.url!
@@ -64,7 +65,14 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
     }
     
-
+    
+    @IBAction func onLogoutBtn(_ sender: Any) {
+        PFUser.logOut()
+        exit(-1)
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 

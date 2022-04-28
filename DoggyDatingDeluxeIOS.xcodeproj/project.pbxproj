@@ -19,6 +19,9 @@
 		18F4129D27E1CCD6001B8A62 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F4129C27E1CCD6001B8A62 /* SignUpViewController.swift */; };
 		18F773792811C1F300A2FFF1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F773782811C1F300A2FFF1 /* ProfileViewController.swift */; };
 		18F7737B281273CF00A2FFF1 /* UpdateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7737A281273CF00A2FFF1 /* UpdateProfileViewController.swift */; };
+		18F773852819248800A2FFF1 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F773842819248800A2FFF1 /* ChatViewController.swift */; };
+		18F7738D2819320800A2FFF1 /* ChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7738C2819320800A2FFF1 /* ChatTableViewCell.swift */; };
+		18F7738F281938C000A2FFF1 /* ChatTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F7738E281938C000A2FFF1 /* ChatTableView.swift */; };
 		D87A1BD722102D7C915BEFB2 /* Pods_DoggyDatingDeluxeIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28AFC16B98073F3135FA3163 /* Pods_DoggyDatingDeluxeIOS.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +41,9 @@
 		18F4129C27E1CCD6001B8A62 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		18F773782811C1F300A2FFF1 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		18F7737A281273CF00A2FFF1 /* UpdateProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateProfileViewController.swift; sourceTree = "<group>"; };
+		18F773842819248800A2FFF1 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		18F7738C2819320800A2FFF1 /* ChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableViewCell.swift; sourceTree = "<group>"; };
+		18F7738E281938C000A2FFF1 /* ChatTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTableView.swift; sourceTree = "<group>"; };
 		28AFC16B98073F3135FA3163 /* Pods_DoggyDatingDeluxeIOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoggyDatingDeluxeIOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6539C772C6DCD7BBF91431DB /* Pods-DoggyDatingDeluxeIOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoggyDatingDeluxeIOS.debug.xcconfig"; path = "Target Support Files/Pods-DoggyDatingDeluxeIOS/Pods-DoggyDatingDeluxeIOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,6 +84,9 @@
 				18E26CDB27E0FFF200771BEA /* AppDelegate.swift */,
 				18E26CDD27E0FFF200771BEA /* SceneDelegate.swift */,
 				18E26CE127E0FFF200771BEA /* Main.storyboard */,
+				18F773842819248800A2FFF1 /* ChatViewController.swift */,
+				18F7738E281938C000A2FFF1 /* ChatTableView.swift */,
+				18F7738C2819320800A2FFF1 /* ChatTableViewCell.swift */,
 				18F7737A281273CF00A2FFF1 /* UpdateProfileViewController.swift */,
 				18F773782811C1F300A2FFF1 /* ProfileViewController.swift */,
 				188194CE280558F500F8508C /* PostCellTableViewCell.swift */,
@@ -232,6 +241,9 @@
 				18F4129D27E1CCD6001B8A62 /* SignUpViewController.swift in Sources */,
 				188194CF280558F500F8508C /* PostCellTableViewCell.swift in Sources */,
 				18F773792811C1F300A2FFF1 /* ProfileViewController.swift in Sources */,
+				18F773852819248800A2FFF1 /* ChatViewController.swift in Sources */,
+				18F7738F281938C000A2FFF1 /* ChatTableView.swift in Sources */,
+				18F7738D2819320800A2FFF1 /* ChatTableViewCell.swift in Sources */,
 				1892306E27FF4A4200AED858 /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
